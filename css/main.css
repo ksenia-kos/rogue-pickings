@@ -1,0 +1,152 @@
+/***** BASE STYLES *****/
+
+body {
+	color: #000000;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+	font-family: Thirsty Script;
+	src: url('../fonts/ThirstyScriptRegular.otf');
+}
+
+h1, h2, h3, h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: black;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 18px;
+	color: #77a466;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 16px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	margin: 0 auto; /***** centers the content  *****/
+	width: 1200px;
+	overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 399px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header h1 {
+	padding-top: 30px;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+nav {
+	float: right;
+	padding-top: 40px;
+}
+
+nav ul li {
+	display: inline-block;
+	color: #77a466;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+/***** TOP SECTION *****/
+
+#top-section img {
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+#top-section h2 {
+	padding-top: 10px;
+}
+
+#top-section p {
+	line-height: 25px;
+	padding: 0 0 15px 0;
+	width: 1160px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom-section .third-width {
+	border-top: 1px solid #eeeeee;
+	padding: 15px 0 10px 0;
+}
+
+
+#reviews {
+	border-left: 1px solid #eeeeee;
+	border-right: 1px solid #eeeeee;
+}
+
+#specials p {
+	color: #77a466;
+	line-height: 36px;
+}
+
+#reviews h4 {
+	padding-left: 30px;
+}
+
+#reviews p {
+	line-height: 21px;
+	width: 330px;
+	padding-left: 30px;
+}
+
+#contact h4 {
+	padding-left: 30px;
+}
+
+#contact p {
+	line-height: 24px;
+	padding-left: 30px;
+}
+
+/***** FOOTER *****/
+
+footer .full-width {
+	border-top: 1px solid #eeeeee;
+}
+
+footer h3 {
+	text-align: center;
+	padding: 15px 0;
+}
+
+footer h3 span {
+	color: #77a466;
+	font-family: 'Thirsty Script';
+	text-transform: lowercase;
+	font-weight: normal;
+}
